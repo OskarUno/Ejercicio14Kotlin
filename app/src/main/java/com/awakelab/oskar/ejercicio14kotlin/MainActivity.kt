@@ -55,6 +55,7 @@ class MainActivity : AppCompatActivity() {
             mensaje = "Monto Actual $ $saldo"
             crearMensaje(mensaje)
         } else {
+            limpiarMonto()
             mensaje = "Monto Actual Insuficiente $ $saldo"
             crearMensaje(mensaje)
         }

@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/rounded_corner"
         android:gravity="center"
-        android:padding="10dp"
+        android:padding="4dp"
         android:text="@string/mi_banco_en_linea"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
@@ -23,7 +23,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01999998" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnConfirmar"
@@ -35,7 +35,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView"
-        app:layout_constraintVertical_bias="0.120000005" />
+        app:layout_constraintVertical_bias="0.88" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -63,14 +63,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.5" />
+        app:layout_constraintGuide_percent="0.59" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
         android:foregroundGravity="center"
         app:cardBackgroundColor="#D0D0ED"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
@@ -80,8 +78,8 @@
 
         <RadioGroup
             android:id="@+id/rGOpciones"
-            android:layout_width="362dp"
-            android:layout_height="190dp">
+            android:layout_width="344dp"
+            android:layout_height="182dp">
 
             <RadioButton
                 android:id="@+id/rBSaldo"
@@ -90,7 +88,7 @@
                 android:buttonTint="@color/color3"
                 android:text="Ver Saldo"
                 android:textColor="#02040B"
-                android:textSize="20sp" />
+                android:textSize="18sp" />
 
             <RadioButton
                 android:id="@+id/rBIngresar"
@@ -99,7 +97,7 @@
                 android:buttonTint="@color/color3"
                 android:text="Ingresar"
                 android:textColor="#02040B"
-                android:textSize="20sp" />
+                android:textSize="18sp" />
 
             <RadioButton
                 android:id="@+id/rBRetirar"
@@ -108,7 +106,7 @@
                 android:buttonTint="@color/color3"
                 android:text="Retirar"
                 android:textColor="#02040B"
-                android:textSize="20sp" />
+                android:textSize="18sp" />
 
             <RadioButton
                 android:id="@+id/rBSalir"
@@ -117,7 +115,7 @@
                 android:buttonTint="@color/color3"
                 android:text="Salir"
                 android:textColor="#02040B"
-                android:textSize="20sp" />
+                android:textSize="18sp" />
         </RadioGroup>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

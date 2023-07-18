@@ -50,7 +50,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Ingrese Monto"
-        android:inputType="text"
+        android:inputType="number"
+        android:textColor="#070303"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/cardView"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -86,28 +87,36 @@
                 android:id="@+id/rBSaldo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/color3"
                 android:text="Ver Saldo"
+                android:textColor="#02040B"
                 android:textSize="20sp" />
 
             <RadioButton
                 android:id="@+id/rBIngresar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/color3"
                 android:text="Ingresar"
+                android:textColor="#02040B"
                 android:textSize="20sp" />
 
             <RadioButton
                 android:id="@+id/rBRetirar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/color3"
                 android:text="Retirar"
+                android:textColor="#02040B"
                 android:textSize="20sp" />
 
             <RadioButton
                 android:id="@+id/rBSalir"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/color3"
                 android:text="Salir"
+                android:textColor="#02040B"
                 android:textSize="20sp" />
         </RadioGroup>
     </androidx.cardview.widget.CardView>
